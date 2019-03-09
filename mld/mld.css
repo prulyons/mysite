@@ -1,0 +1,31 @@
+* {
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #F735B9;
+}
+.container {
+	margin: 0 120px;
+	padding: 60px;
+	background-color: #FACEB9;
+}
+h1 {
+	text-align: center;
+	margin: 30px;
+	text-decoration: underline overline;
+}
+p {
+	 line-height: 200%;
+	 font-size: 18px;
+	 margin: 50px;
+}
+a {
+	text-decoration: none;
+	padding: 8px 15px;
+	border-radius: 4px;
+	background-color: #0A94C4;
+	color: white;
+}
