@@ -14,6 +14,7 @@ body {
 }
 h1, h2 {
 	text-align: center;
+	text-decoration: underline overline;
 	
 }
 hr {
@@ -44,10 +45,7 @@ p {
 	 font-size: 18px;
 	 margin-bottom: 50px;
 }
-.about {
-	margin: 60px 60px 30px 30px; ;
-	padding-right: 80px;
-}
+
 a {
 	text-decoration: none;
 	padding: 8px 15px;
@@ -55,12 +53,26 @@ a {
 	background-color: #0A94C4;
 	color: white;
 }
-
-aside {
-	display: flex;
+.about {
+	margin: 60px 60px 30px 30px; ;
+	padding-right: 80px;
 }
+
+
 img {
+	width: 100%;
+	margin-top: 60px;
 	max-width: 420px;
 	max-height: 320px;
 	padding-right: 30px;
+}
+.back:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
+
+}
+footer {
+	margin: 50px 20px 0 10px;
+	color: #BAB7B9;
 }
