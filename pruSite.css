@@ -52,18 +52,16 @@ h3 {
 #navbar {
 	overflow: hidden;
 	background-color: #F7EAC1;
+	padding-top: 0;
+	padding-bottom: 0;
+}
 
-}
-.navbar-nav {
-	padding: 0 30px;
-	
-}
 .hands2 {
 	width: 90px;
 	height: 80px;
-	border: 2px solid #53efef;
+	border: 2px solid #FAF59C;
 	border-radius: 10px;
-	margin:  10px;
+	margin: 20px;
 }
 
 .jumbotron {
@@ -140,7 +138,7 @@ footer {
 .nav-link {
 	color: #c52761 !important;
 	font-weight: 700;
-
+	margin-left: 150px;
 }
 .bottom {
 	background-color: #83125F;
@@ -164,10 +162,7 @@ footer {
 		
 		margin-left: 170px;
 	}
-	.nav-link {
-		margin: 0;
-		padding: 0;
-	}
+	
 	.jumbotron {
 		width: 100%;
 		height: 280px;
@@ -177,17 +172,23 @@ footer {
 		font-size: 0.75rem;
 		margin-top: 15px;
 	}
+	.nav-link {
+		margin: 0 30px;
+	}
 
 }
 @media (min-width: 1024px) {
 	.nav-link {
-		margin: 20px;
-		
+		margin: 0 110px;
 	}
+
 }
-@media (max-width: 414px) and (min-width: 376px) {
+@media (max-width: 414px) and (min-width: 375px) {
 	.faq {
 		margin-left: 185px;
+	}
+	.hands2 {
+		display: none;
 	}
 }
 
@@ -198,5 +199,14 @@ footer {
 	.faq {
 		margin-left: 150px;
 	}
+	.hands2 {
+		display: none;
+	}
 	
+}
+@media (max-width: 360px) {
+	.hands2 {
+		display: none;
+	}
+
 }
